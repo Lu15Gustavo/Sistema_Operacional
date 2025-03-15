@@ -16,6 +16,7 @@ public class Iphone implements Sistema_Operacional{
     @Override
     public boolean tocar() {
        System.out.println("Sua musica favorita esta tocando.");
+       tocar = true;
        return true;
     }
 
